@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const server = require("http").Server(app);
 
-app.get("/", (req, res) => {
-  res.status(200).send("Hello World");
+app.get("/", function (req, res) {
+  res.render("room");
 });
 
 server.listen(3030);
