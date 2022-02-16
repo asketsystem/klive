@@ -7,3 +7,5 @@ app.get("/", (req, res) => {
 });
 
 server.listen(3030);
+
+app.set("view engine", "ejs");
