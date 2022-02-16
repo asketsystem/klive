@@ -4,7 +4,7 @@
   "description": "This is a video streaming App for Klingbo SOftware",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "nodemon": "node server.js"
   },
   "author": "Asketsystem",
   "license": "ISC",
