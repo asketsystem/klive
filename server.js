@@ -9,3 +9,5 @@ app.get("/", function (req, res) {
 server.listen(3030);
 
 app.set("view engine", "ejs");
+
+app.use(express.static("public"));
